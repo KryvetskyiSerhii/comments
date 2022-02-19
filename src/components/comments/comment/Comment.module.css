@@ -1,0 +1,25 @@
+.comment {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    word-wrap: break-word;
+}
+
+.comment:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.comment img{
+   width: 40px;
+   
+   
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.header__name {
+    display: flex;
+}

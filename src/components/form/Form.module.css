@@ -1,0 +1,53 @@
+.form {
+    width: 600px;
+    margin: 100px auto 70px auto;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.form__block{ 
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.name__block {
+    display: flex;
+
+}
+.name__block label {
+    margin-left: 10px;
+}
+
+.form__name {
+    width: 200px;
+    border-radius: 5px;
+    min-height: 25px;
+    padding-left: 5px;
+    border-color: grey;
+}
+
+.form__comment {
+    min-height: 100px;
+    margin: 20px 0px 10px 0px;
+    border-radius: 5px;
+    border-color: grey;
+    padding-left: 5px;
+}
+
+.form__button {
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button__block {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 25px;
+}
+
+.error {
+    color:red;
+    font-size: 12px;
+}
