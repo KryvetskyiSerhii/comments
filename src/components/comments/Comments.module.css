@@ -1,4 +1,23 @@
 .comments {
     width: 600px;
     margin: 0 auto;
+
+}
+
+.pagination {
+    display: flex;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    min-height: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px auto;
 }

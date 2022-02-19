@@ -1,6 +1,6 @@
 import classes from './Comment.module.css'
 
-function Comment(props) {
+const Comment = (props) => {
     return (
       
         <div className={classes.comment}>
@@ -9,7 +9,7 @@ function Comment(props) {
                     <img src="https://d1nhio0ox7pgb.cloudfront.net/_img/o_collection_png/green_dark_grey/512x512/plain/user.png" alt="" />
                     <div className={classes.name}>{props.name}</div>
                 </div>
-                <div className={classes.date}>{props.date}</div>
+                <div className={classes.date}>{props.date.slice(0, 10)}</div>
             </div>
             <div className={classes.message}>{props.message}</div>
         
